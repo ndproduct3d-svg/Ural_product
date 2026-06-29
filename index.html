@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ural_product</title>
+<title>360° Viewer</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html,body{width:100%;height:100%;overflow:hidden;background:#ffffff;cursor:grab}
@@ -29,7 +29,7 @@ body.zoom-mode{cursor:none}
 </div>
 <div class="hint fade" id="hint">Перетащите для вращения · двойной клик = зум</div>
 <script>
-const CFG={framesPath:'frames',totalFrames:360,framePrefix:'Ural_catalog',frameExt:'png',frameDigits:1,transparent:false,bgColor:'#ffffff',sx:1.0,ease:.18,inertia:.92};
+const CFG={framesPath:'frames',totalFrames:147,framePrefix:'Ural_catalog2026ENDV2.v1.',frameExt:'png',frameDigits:1,transparent:false,bgColor:'#ffffff',sx:1.0,ease:.18,inertia:.92};
 const cv=document.getElementById('cv'),loader=document.getElementById('loader'),lfill=document.getElementById('lfill'),ltxt=document.getElementById('ltxt'),hint=document.getElementById('hint');
 const imgs=[];let loaded=0,shown=false,fF=0,tF=0,vX=0,drag=false,px=0,zoomMode=false,mx=0,my=0;
 function dpr(){return window.devicePixelRatio||1}
